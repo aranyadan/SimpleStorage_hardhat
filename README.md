@@ -1,15 +1,10 @@
-# Basic Sample Hardhat Project
+# Hardhat Demo Task
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
-
-Try running some of the following tasks:
+This project demonstrates a basic Hardhat use case. Created by following the tutorial from freecodecamp (https://youtu.be/gyMwXuJrbJQ)
+Can be run after setting up the environment with the following commands
 
 ```shell
-npx hardhat accounts
-npx hardhat compile
-npx hardhat clean
-npx hardhat test
-npx hardhat node
-node scripts/sample-script.js
-npx hardhat help
+yarn install
+yarn hardhat test
+yarn hardhat run scripts/deploy.js
 ```
